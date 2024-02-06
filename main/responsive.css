@@ -1,0 +1,818 @@
+
+/*responsive media*/
+
+@media  (min-device-width: 1250px) and (max-device-width:1435px)  { 
+  
+    .for-logo img { 
+        width: 110px;
+    }
+    .navbar ul { 
+        margin-right: 293px;
+    }
+
+    .Get-Started  { 
+        font-size: 13px;
+        padding: 12px 16px !important; 
+    }
+    .Sign-up { 
+        font-size: 13px;
+    }
+
+    .Quote h1 {
+        font-size: 55px;
+    }
+
+    .explore-now { 
+        font-size: 14px;
+        padding: 12px 14px;
+    }
+
+    .saved-energy h2 { 
+        margin-left: 467px;
+    }
+
+    .saved-energy h4 { 
+        margin-left: 455px;
+    }
+    .saved-energy p {
+        margin-left: 412px;
+    }
+
+    .form-section h1 { 
+        font-size: 41px;
+    }
+
+    .submit-for-form { 
+        width: 145px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .first-insight { 
+        font-size: 28px;
+        margin-right: 38px;
+    }
+
+    .second-insight p { 
+        font-size: 18px;
+    }
+
+    .media-img { 
+        width: 279px;
+        height: 172px;
+    }
+
+    .media-h2 { 
+        margin-left: 33px;
+
+    }
+    .media-para { 
+        font-size: 15px;
+    }
+  }
+
+  @media  (min-device-width: 600px) and (max-device-width:1250px) { 
+ 
+    .navbar ul{ 
+        padding-left: 216px;
+        padding-right: 0px;
+    }
+    .navbar a{ 
+        
+        font-size: 22px;
+    }
+    .end-portion button{ 
+        margin-left: -200px;
+    }
+    .Get-Started  { 
+        padding: 8px 16px !important; 
+        width: 120px;
+        height: 38px;
+    }
+    .Sign-up { 
+        width: 120px;
+        height: 38px;
+        margin-right: 183px;
+    }
+    .home-automation-img { 
+        width: 668px;
+        height: 621px;
+        margin-left: 230px;
+    }
+
+    .Quote h1 { 
+        font-size: 50px;
+        line-height: 1.1;
+    }
+
+    .review-para  { 
+        font-size: 15px;
+    }
+
+    .top-brand-header {
+        margin-left: 312px;
+        font-size: 32px;
+        width: 100%;
+    }
+    .amazon { 
+        margin-left: 562px;
+    }
+    .benefit-header { 
+        margin-left: 298px;
+        width: 100%;
+    }
+    .benefit-info { 
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-right: -384px;
+        margin-left: 195px;
+    }
+
+    .first-benefit-info { 
+        width: 260px;
+        height: 236px;
+    }
+
+    .second-benefit-info { 
+        width: 260px;
+        height: 236px;
+    }
+
+    .third-benefit-info { 
+        width: 260px;
+        height: 236px;
+    }
+    .fourth-benefit-info { 
+        width: 260px;
+        height: 236px;
+    }
+
+    .containar-1 { 
+        margin: 50px 30px 50px 150px;
+        width: 1150px;
+        height: auto;
+        padding:  20px 20px 20px 0px;
+    }
+
+    .container-1-img { 
+        width: 460px;
+        height: 370px;
+        
+    }
+
+    .container-2 { 
+        margin: 50px 30px 50px 150px;
+        width: 1150px;
+        height: auto;
+        padding:  20px 20px 20px 0px;
+    }
+
+    .weather-img { 
+        width: 460px;
+        height: 370px;
+        margin-right: 40px;
+    }
+    .info-container-2  {
+        
+        margin-right: 120px;
+
+    }
+    .info-container-2 h1{
+        width: 100%;
+        font-size: 38px;
+    }
+    .info-container-2 p{
+        width: 100%;
+    }
+
+    .container-3 { 
+        margin: 50px 30px 50px 150px;
+        width: 1150px;
+        height: auto;
+        
+    }
+
+    .door-image { 
+        width: 530px;
+        height: 350px;
+        padding-bottom: 50px;
+    }
+
+    .experience-section { 
+        width: 1150px;
+        margin: 50px 30px 0px 150px;
+
+    }
+
+    .three-profiles { 
+        width: 1150px;
+        margin: 0px 30px 50px 150px;
+    }
+
+    .energy { 
+        width: 1150px;
+        margin: 50px 30px 0px 150px;
+
+    }
+    
+    .saved-energy h2 { 
+        margin-left: 382px;
+    }
+
+    .saved-energy h4 { 
+        margin-left: 369px;
+    }
+
+    .saved-energy p {
+        margin-left: 338px;
+    }
+
+    .form-section { 
+        width: 1150px;
+    }
+
+    .actual-form { 
+        width: 50%;
+        margin-left: 150px;
+    }
+
+    .forcheckbox { 
+        margin-left: 20px;
+    }
+
+    .termsconditions { 
+        margin-left: 5px;
+    }
+
+    .form-section h4,
+    .form-section h1,
+    .form-section p {
+        margin-left: 150px;
+    } 
+
+    .insights { 
+        width: 1150px;
+    }
+
+    .first-insight { 
+        font-size: 22px;
+        margin-right: 28px;
+        margin-left: 63px;
+
+    }
+
+    .second-insight p { 
+        font-size: 18px;
+    }
+
+    .cols-media { 
+        margin-left: 202px;
+    }
+
+    .first-media { 
+        width: 350px;
+    }
+
+    .second-media { 
+        width: 350px;
+    }
+
+    .third-media { 
+        width: 350px;
+    }
+
+    .media-img { 
+        width: 279px;
+        height: 172px;
+        padding-right: 20px;
+    }
+
+    .moreinfo { 
+        width: 1050px;
+        margin: 50px 30px 0px 150px;
+    }
+    
+    .footer { 
+        width: 1050px;
+        margin: 0px 30px 50px 150px;
+
+    }
+  }
+
+  @media  (min-device-width: 10px) and (max-device-width: 600px) { 
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+    .for-logo img {
+        width: 340px;
+        height: auto;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .end-portion{
+        margin-left: 650px;
+    }
+
+    .Get-Started  { 
+        font-size: 34px;
+        padding: 14px 18px !important; 
+        width: 220px;
+    }
+    .Sign-up { 
+        font-size: 34px;
+        width: 200px;
+       
+    }
+
+    .home-automation-img { 
+        display: none;
+    }
+
+    .main-portion { 
+        width: 300%;
+    }
+    .Quote h1 { 
+        font-size: 100px;
+        line-height: 1.1;
+    }
+    .Quote p { 
+        font-size: 40px;
+    }
+    .explore-now { 
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .start-image { 
+        width: 200px;
+        height: auto;
+    }
+
+    .review-para { 
+        font-size: 34px;
+        width: 300%;
+    }
+    
+    .profile-pic { 
+        width: 135px;
+        height: 132px;
+    }
+    .jane-p { 
+        font-size: 39px;
+        margin-left: 278px;
+        margin-top: -96px;
+    }
+    .jane-descript { 
+        font-size: 34px;
+        margin-left: 276px;
+    }
+    .top-brand-header{ 
+        font-size: 60px;
+        margin-left: 166px;
+        margin-top: 198px;
+        width: 300%;
+    }
+    .brand-logos  { 
+        margin-left: 827px;
+        margin-bottom: 110px;
+    }
+    .amazon { 
+        width: 400px;
+        height: auto;
+    }
+    .emerson{
+        width: 310px;
+        height: auto;
+    }
+    .mitsubiri { 
+        width: 490px;
+        height: auto;
+    }
+    .rockwell{ 
+        width: 400px;
+        height: auto;
+    }
+    .benefit-header { 
+       width: 130%;
+        font-size: 86px;
+    }
+    .benefits { 
+        width: 300%;
+    }
+    .benefit-info { 
+        align-items: center;
+        justify-content: center;
+        margin-right: -384px;
+        margin-left: 860px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        grid-template-rows: auto auto;
+
+    }
+
+    .first-benefit-info { 
+        padding: 200px;
+        height: 400px;
+    }
+
+    .second-benefit-info { 
+        padding: 200px;
+        height: 400px;
+    }
+
+    .third-benefit-info { 
+        padding: 200px;
+        height: 400px;
+    }
+    .fourth-benefit-info {
+        padding: 200px;
+        height: 400px;
+    } 
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4  { 
+        width: 150px ;
+        height: 150px;
+    }
+    h4 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 30px;
+        width: 200%;
+    }
+
+    .containar-1 {
+        margin: 100px 0px 100px 0px;
+        width: 1630px;
+        height: 520px;
+    }
+    .container-1-img{ 
+        width: 540px ;
+        height: 420px;
+    }
+    .container-2 { 
+        margin: 100px 0px 100px 0px;
+        width: 1630px;
+        height: 510px;
+    }
+    .imag-container-2{ 
+        margin-left: 200px;
+    }
+    .weather-img{ 
+        width: 570px;
+        height: 434px;    
+    }
+
+    .info-container h1 { 
+        font-size: 56px;
+    }
+
+    .info-container p { 
+        font-size: 32px;
+    }
+
+    .info-container-2 h1 { 
+        font-size: 56px;
+    }
+
+    .info-container-2 p { 
+        font-size: 32px;
+    }
+
+    .info-container-3 h1 { 
+        font-size: 56px;
+    }
+
+    .info-container-3 p { 
+        font-size: 32px;
+    }
+    .container-3 { 
+        margin: 100px 0px 100px 0px;
+        width: 1630px;
+        height: 540px;
+    }
+    .experience-section { 
+        width: 1630px;
+        margin: 50px 0px 0px 0px;
+    }
+    .three-profiles {
+        width: 1630px;
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-experience-profile{
+        width: 800px;
+        height: 575px;
+       padding: 20px;
+       border-radius: 30px;
+    }
+  
+    .second-experience-profile{
+        width: 800px;
+        height: 575px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .third-experience-profile{
+        width: 800px;
+        height: 575px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    
+    .experience-image-1 { 
+        width: 141px;
+        height: 147px;
+    }
+    .experience-image-2 { 
+        width: 141px;
+        height: 147px;
+    }
+    .experience-image-3 { 
+        width: 141px;
+        height: 147px;
+    }
+    .experience-section h1 {
+        font-size: 80px;
+    }
+    .exp1 {
+        font-size: 36px;
+    }
+    .exp2{
+        font-size: 36px;
+    }
+    .exp3 {
+        font-size: 36px;
+    }
+    .experience-para-1 {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+        font-size: 38px;
+    }
+    .experience-para-2{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 207px;
+        font-size: 38px;
+    }
+    .efficiency-seeker { 
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 260px;
+    }
+    .energy{
+        padding-top: 70px;
+        margin: 0px 0px 100px 0px;
+        width: 1630px;
+        height: 500px;
+        padding-bottom: 100px;
+   }
+   .energy-info h1 {
+        font-size: 62px;
+   }
+   .energy-info p{
+        font-size: 34px;
+        width: 100%;
+        letter-spacing: 2px;
+   }
+   .energy-saved h2{
+        font-size: 58px;
+   }
+   .energy-saved h4{
+        font-size: 38px;
+   }
+   .saved-energy h4{
+        width: 100%;
+        margin-left: 512px;
+   }
+    .user-globally h4{ 
+        width: 100%;
+        margin-left: 88px;
+    }
+    .saved-energy p{ 
+        font-size: 28px;
+        margin-left: 438px;
+      }
+      
+    .user-globally p{ 
+        font-size:28px;   
+        margin-left: 20px;   
+    }
+    .iframe { 
+        display: none;
+    }
+    .form-section{
+        display: block;
+        width: 100%;
+    }
+    .form-section h4 {
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        width: 100%;
+        margin-left: 605px;
+    }
+    .form-section h1 {
+        font-size: 56px;
+        margin-left: 648px;
+        width: 100%;
+    }
+    .form-section p {
+        font-size: 38px;
+        width: 100%;
+        text-align: center;
+        margin-left: 605px;
+        margin-top: 50px;
+    }
+    .actual-form {
+        width: 100%;
+        margin-left: 608px;
+    }
+    .termsconditions {
+        margin-left: 30px;
+    }
+    .actual-form input {
+        width: 500px;
+        height: 50px;
+    }
+    .actual-form label {
+        font-size: 38px;
+    }
+    #message-box {
+        width: 500px;
+        height: 180px;
+    }
+    #message-box::placeholder {
+        font-size: 34px;
+    }
+    #form-check {
+        width: 35px;
+        height: auto;
+    }
+    .submit-for-form {
+        font-size: 32px;
+        width: 194px;
+        height: 67px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .insights { 
+        width: 1630px;
+    }
+
+    .first-insight { 
+        width: 1630px;
+        font-size: 38px;
+        margin-left: 479px;
+        margin-bottom: 50px;
+        
+    }
+
+    .second-insight p { 
+        display: none;
+    }
+
+    .cols-media { 
+        margin-left: 202px;
+    }
+
+    .first-media { 
+        width: 350px;
+    }
+
+    .second-media { 
+        width: 350px;
+    }
+
+    .third-media { 
+        width: 350px;
+    }
+
+    .media-img { 
+        width: 492px;
+        height: 262px;    
+        padding-right: 20px;
+        margin-left: 232px;
+        border-radius: 12px;
+    }
+
+    .cols-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .first-media {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 600px;
+        padding: 20px;
+        border-radius: 30px;
+        margin-bottom: 50px;
+    }
+
+    .second-media {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 600px;
+        padding: 20px;
+        border-radius: 30px;
+        margin-bottom: 50px;
+
+    }
+
+    .third-media {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 600px;
+        padding: 20px;
+        border-radius: 30px;
+        margin-bottom: 80px;
+
+    }
+
+    .media-h2 {
+        font-size: 46px;
+        margin-left: 124px;
+    }
+
+    .third-media h2 {
+        font-size: 46px;
+        margin-left: 170px;
+    }
+
+    .media-para { 
+        font-size: 34px;
+        width: 100%;
+       margin-left: -10px;
+    }
+
+    .footer {
+        width: 1650px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .company-info {
+        display: none;
+    }
+
+    .moreinfo {
+        width: 1650px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .header-for-info h1{
+        font-size: 48px;
+    }
+
+    .header-for-info p{
+        font-size: 36px;
+    }
+
+    .learn-more {
+        font-size: 33px;
+        width: 227px;
+        height: 87px;
+        margin-top: 60px;
+
+    }
+
+    .contact-us {
+        font-size: 33px;
+        width: 227px;
+        height: 87px;
+        margin-left: 332px;
+        padding: 10px;
+    }
+
+    .final-logo {
+        width: 315px;
+        height: 230px;    
+    }
+
+    .reach-us h4{
+        font-size: 38px;
+    }
+
+    .reach-us li {
+        font-size: 30px;
+    }
+  }

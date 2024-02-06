@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartLife</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    
+</head>
+<body>
+<section class="total-container">
+    <!-- 20% of the section left side -->
+    <section class="container-1">
+        <span><img src="../Images/new-logo.png" alt="logo" class="this-logo"></span>
+        <span><img src="../icons/living-room.jpg" alt="live-record" class="living-room-img"></span>
+        <h2 class="user-name">Anne hathaway</h2>
+        <p class="user-location">Balaju, Kathmandu</p>
+
+
+       <div class="home-box">
+        <span><img src="../icons/home.png" alt="logo-of-home" class="home-logo icons"></span>
+        <h4>Home</h4>
+       </div>
+
+       <div class="room-box">
+        <span><img src="../icons/bed-alt.png" alt="logo-of-room" class="room-logo icons"></span>
+        <h4>Rooms</h4>
+       </div>
+
+       <div class="security-box">
+        <span><img src="../icons/security.png" alt="logo-of-security" class="security-logo icons"></span>
+        <h4>Security</h4>
+       </div>
+
+       <div class="line-container"></div>
+
+       <div class="cctv-box">
+        <span><img src="../icons/cctv.png" alt="" class="cctv-logo icons"></span>
+        <h4>CCTV</h4>
+       </div>
+
+       <div class="events-box">
+        <span><img src="../icons/events.png" alt="" class="events-logo icons"></span>
+        <h4>Events</h4>
+       </div>
+
+       <div class="devices-box">
+        <span><img src="../icons/devices.png" alt="" class="devices-logo icons"></span>
+        <h4>Devices</h4>
+       </div>
+
+       <div class="langauge">
+        <span><img src="../icons/Language.jpg" alt="" class="flag-logo"></span>
+        <h4>English</h4>
+       </div>
+    </section>
+
+    <!-- 50% of the section middle part  -->
+    <section class="container-2">
+        <nav class="navbar">
+            <button class="main-setting-button"><img src="../icons/settings.png" alt="" class="main-setting-img icons"></button>
+            <button class="main-bell-button"><img src="../icons/notification.png" alt="" class="main-bell-img icons"></button>
+            <span><img src="../icons/kendall-jenner.jpg" alt="" class="profile-img-main"> </span>
+        </nav>
+
+        <div class="welcome-message">
+            <h1>Welcome, Anne</h1>
+            <h2 id="current-time"></h2>
+        </div>
+
+        <div class="choose-room">
+            <ul>
+                <li><button>My Home</button></li>
+                <li><button>Living Room</button></li>
+                <li><button>Bathroom</button></li>
+                <li><button>Office</button></li>
+                <li><button>Kids Room</button></li>
+            </ul>
+            <div class="add-device">
+                <a href=""><span><img src="../icons/add.png" alt="" class="plus-icon icons"></span></a>
+                <p class="add-device-text">Add Device</p>
+            </div>
+        </div>
+
+        <div class="date">
+            <script>
+                (function(d, s, id) {
+                    if (d.getElementById(id)) {
+                        if (window.__TOMORROW__) {
+                            window.__TOMORROW__.renderWidget();
+                        }
+                        return;
+                    }
+                    const fjs = d.getElementsByTagName(s)[0];
+                    const js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+        
+                    fjs.parentNode.insertBefore(js, fjs);
+                })(document, 'script', 'tomorrow-sdk');
+                </script>
+        
+                <div class="tomorrow"
+                   data-location-id="079735"
+                   data-language="EN"
+                   data-unit-system="METRIC"
+                   data-skin="dark"
+                   data-widget-type="summary"
+                   style="padding-bottom:22px;position:relative;"
+                >
+                  <a
+                    href="https://www.tomorrow.io/weather-api/"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                  >
+                    <img
+                      alt="Powered by the Tomorrow.io Weather API"
+                      src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                      width="250"
+                      height="18"
+                    />
+                  </a>
+                </div>
+                <div class="extracolumn">
+                    <h2>Energy Usage</h2>
+                    <h1>720 Kwh</h1>
+                    <p>Jan 14-Feb 6</p>
+                </div>
+        </div>
+
+        <div class="sensors">
+            <h2>Sensors</h2>
+            <div class="first-col-section">
+            <div class="main-door">
+                <h1 class="sensor-h1">Main Door</h1>
+                <span><img src="../Images/main-door.jpg" alt="" class="main-shudder-img"></span>
+                <div class="main-toggle-status">Status: <span id="main-status">Closed</span></div>
+            </div>
+            
+            <div class="garage-door">
+                <h1 class="sensor-h1">Garage Door</h1>
+                <span><img src="../Images/garage-img.jpg" alt="" class="garage-door-img"></span>
+                <div class="main-toggle-status">Status: <span id="main-status">Closed</span></div>
+            </div>
+            </div>
+            <div class="second-col-section">
+            <div class="bedroom-door">
+                <h1 class="sensor-h1">Bedroom Door</h1>
+                <span><img src="../Images/bedroom-door.jpg" alt="" class="bedroom-door-img"></span>
+                <div class="main-toggle-status">Status: <span id="main-status">Closed</span></div>
+            </div>
+
+            <div class="balcony-door">
+                <h1 class="sensor-h1">Balcony Door</h1>
+                <span><img src="../Images/balcony-door.jpg" alt="" class="balcony-door-img"></span>
+                <div class="main-toggle-status">Status: <span id="main-status">Closed</span></div>
+            </div>
+            </div>
+        </div>
+
+        <!-- templates -->
+        <div class="template-first">
+        <h1>Widgets</h1>
+        <div class="all-templates">
+            <div class="security-template">
+                <span><img src="../icons/security.png" alt="" class="security-icon-main icons"></span>
+                <h2>Security</h2>
+                <p>6 rooms</p>
+                <div class="toggle-status">Status: <span id="status-1">OFF</span></div>
+                <label class="switch">
+                    <input type="checkbox" id="checkbox-switch-1" onclick="toggleStatus1()">
+                    <span class="slider round" ></span>
+                </label>
+            </div>
+            <div class="lighting-template">
+                    <span><img src="../icons/lighting.png" alt="" class="lighting-icon-main icons"></span>
+                    <h2>Lighting</h2>
+                    <p>4 rooms</p>
+                    <div class="toggle-status">Status: <span id="status-2">OFF</span></div>
+                    <label class="switch">
+                        <input type="checkbox"  id="checkbox-switch-2" onclick="toggleStatus2()">
+                        <span class="slider round"></span>
+                    </label>
+            </div>
+
+            <div class="cctv-template">
+                <span><img src="../icons/cctv.png" alt="" class="cctv-icon-main icons"></span>
+                <h2>CCTV</h2>
+                <p>8 devices</p>
+                <div class="toggle-status">Status: <span id="status-3">OFF</span></div>
+                <label class="switch">
+                    <input type="checkbox" id="checkbox-switch-3" onclick="toggleStatus3()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="internet-template">
+                <span><img src="../icons/internet.png" alt="" class="internet-icon-main icons"></span>
+                <h2>Internet</h2>
+                <p>24.8 Mbit/s</p>   
+            </div>
+        </div>
+        </div>
+        
+    </section>
+
+    <!-- 30% of the section right side -->
+    <section class="container-3">
+        <h1 class="container-3-h1">Air Conditioner</h1>
+     
+        <div class="frame">
+          <div class="center">
+                <div class="thermo-bg"></div>
+                <div class="thermo-bg-color"></div>
+                <div class="thermo-border"></div>
+                <div class="thermo-center"></div>
+                <div class="content">
+                    <button id="cold" onclick="down()">
+                        <div class="cold">
+                            <svg width="15px" viewBox="0 0 448 512">
+                                <path fill="#d6d6d6" d="M440.3 345.2l-33.8-19.5 26-7c8.2-2.2 13.1-10.7 10.9-18.9l-4-14.9c-2.2-8.2-10.7-13.1-18.9-10.9l-70.8 19-63.9-37 63.8-36.9 70.8 19c8.2 2.2 16.7-2.7 18.9-10.9l4-14.9c2.2-8.2-2.7-16.7-10.9-18.9l-26-7 33.8-19.5c7.4-4.3 9.9-13.7 5.7-21.1L430.4 119c-4.3-7.4-13.7-9.9-21.1-5.7l-33.8 19.5 7-26c2.2-8.2-2.7-16.7-10.9-18.9l-14.9-4c-8.2-2.2-16.7 2.7-18.9 10.9l-19 70.8-62.8 36.2v-77.5l53.7-53.7c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-6.2-6.2-16.4-6.2-22.6 0L256 56.4V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v40.4l-19.7-19.7c-6.2-6.2-16.4-6.2-22.6 0L138.3 48c-6.3 6.2-6.3 16.4 0 22.6l53.7 53.7v77.5l-62.8-36.2-19-70.8c-2.2-8.2-10.7-13.1-18.9-10.9l-14.9 4c-8.2 2.2-13.1 10.7-10.9 18.9l7 26-33.8-19.5c-7.4-4.3-16.8-1.7-21.1 5.7L2.1 145.7c-4.3 7.4-1.7 16.8 5.7 21.1l33.8 19.5-26 7c-8.3 2.2-13.2 10.7-11 19l4 14.9c2.2 8.2 10.7 13.1 18.9 10.9l70.8-19 63.8 36.9-63.8 36.9-70.8-19c-8.2-2.2-16.7 2.7-18.9 10.9l-4 14.9c-2.2 8.2 2.7 16.7 10.9 18.9l26 7-33.8 19.6c-7.4 4.3-9.9 13.7-5.7 21.1l15.5 26.8c4.3 7.4 13.7 9.9 21.1 5.7l33.8-19.5-7 26c-2.2 8.2 2.7 16.7 10.9 18.9l14.9 4c8.2 2.2 16.7-2.7 18.9-10.9l19-70.8 62.8-36.2v77.5l-53.7 53.7c-6.3 6.2-6.3 16.4 0 22.6l11.3 11.3c6.2 6.2 16.4 6.2 22.6 0l19.7-19.7V496c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-40.4l19.7 19.7c6.2 6.2 16.4 6.2 22.6 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6L256 387.7v-77.5l62.8 36.2 19 70.8c2.2 8.2 10.7 13.1 18.9 10.9l14.9-4c8.2-2.2 13.1-10.7 10.9-18.9l-7-26 33.8 19.5c7.4 4.3 16.8 1.7 21.1-5.7l15.5-26.8c4.3-7.3 1.8-16.8-5.6-21z" id="btn-cold"/>
+                            </svg>
+                        </div>
+                    </button>
+                  <button id="hot" onclick="up()">
+                        <div class="hot">
+                        <svg width="20px" viewBox="0 0 24 24">
+                        <path fill="#d6d6d6" d="M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z" id="btn-hot"/>
+                        </svg>
+                    </div>
+                    </button>
+                    <div class="screen">
+                      <p id="result">33</p>
+                      <p id="celcius"></p>
+                  </div>
+                    <div class="fahrenheit">°F</div>
+                    <div class="place">
+                        <p>Bedroom</p>	
+                        <div id="bed">
+                            <svg viewBox="0 0 640 512" class="bed">
+                                <path fill="rgba(107,107,107,.5)" d="M176 256c44.11 0 80-35.89 80-80s-35.89-80-80-80-80 35.89-80 80 35.89 80 80 80zm352-128H304c-8.84 0-16 7.16-16 16v144H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v352c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16v-48h512v48c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V240c0-61.86-50.14-112-112-112z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <div class="action-section">
+            <h1>Action</h1>
+        </div>
+        <div class="cooling-template">
+            <span><img src="" alt="" class="cooling-icon"></span>
+            <h1>Cooling</h1>
+        </div>
+        <div class="heating-template">
+            <span><img src="" alt="" class="heating-icon"></span>
+            <h1>Heating</h1>
+        </div>
+        <div class="airwave-template">
+            <span><img src="" alt="" class="airwave-icon"></span>
+            <h1>Airwave</h1>
+        </div>
+        <div class="airwave-template">
+            <span><img src="" alt="" class="airwave-icon"></span>
+            <h2>Timer</h2>
+            <h1>2</h1>
+            <p>Hours</p>
+        </div>
+    </section>
+</section>
+<script src="app.js"></script>
+   <script async src="https://app2.weatherwidget.org/js/?id=ww_0235389072dfc"></script>
+</body>
